@@ -14,7 +14,7 @@ body {
 	padding-top: 30px;
 
 	.ads {
-		padding-left: 0px;
+		margin: 0 auto;
 		img {
 			padding-bottom: 20px;
 		}
@@ -52,7 +52,7 @@ nav.top-bar {
 	p.label {
 		font-size: 20px;
 		margin-bottom: 0.75em;
-		min-width: 100%;
+		width: 100%;
 		text-align: left;
 	}
 }
