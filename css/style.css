@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../fonts/Gotham-Medium.woff") format("woff"); }
+
+body {
+  background: url("../img/classified.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; }
+
+#container {
+  padding-top: 30px; }
+  #container .ads {
+    padding-left: 0px; }
+    #container .ads img {
+      padding-bottom: 20px; }
+  #container .gallery {
+    margin-bottom: 20px; }
+
+nav.top-bar .title-area img {
+  height: 45px;
+  padding: 7px 0px; }
+nav.top-bar span.label {
+  margin-top: 12px; }
+  nav.top-bar span.label .number {
+    color: #333; }
+
+.panel.categories {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 0px; }
+  .panel.categories i {
+    padding-right: 10px; }
+  .panel.categories li {
+    list-style: none;
+    padding-left: 1em; }
+  .panel.categories p.label {
+    font-size: 20px;
+    margin-bottom: 0.75em;
+    min-width: 100%;
+    text-align: left; }
+
+.orbit-container {
+  border: 5px solid #eee; }
+  .orbit-container .orbit-bullets {
+    display: none; }
+  .orbit-container ul.orbit-slides-container {
+    height: 280px !important; }
+
+.large-12 > .carousel {
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.8); }
+  .large-12 > .carousel [data-clearing] li {
+    float: left;
+    margin: 0px 10px;
+    height: 100px;
+    width: 120px; }
+    .large-12 > .carousel [data-clearing] li a img {
+      height: 85px; }
